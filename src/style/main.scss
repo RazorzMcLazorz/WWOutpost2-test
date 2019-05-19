@@ -21,8 +21,15 @@ body {
     -webkit-tap-highlight-color: transparent;
 }
 
-.app {
-    margin-top: 2rem;
-    display: grid;
-    justify-items: center;
-}
+@import 'app';
+
+.dot {
+    display: flex;
+    height: 15px;
+    width: 15px;
+    background-color: #bbb;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+  }
